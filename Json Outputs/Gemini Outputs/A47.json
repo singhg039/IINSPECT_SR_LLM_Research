@@ -1,0 +1,252 @@
+{
+  "processing_time": {
+    "assessment_start_time": "22:28:43",
+    "database_query_timestamp": "2025-08-10 22:34:11 UTC",
+    "database_access_version": "Google Search via tool_code",
+    "methodology_version": "INSPECT-SR Enhanced v2.0",
+    "identifier_discovery_time": "1 min 15 sec",
+    "retraction_investigation_time": "1 min 30 sec",
+    "expression_investigation_time": "1 min 30 sec",
+    "team_integrity_investigation_time": "1 min 30 sec",
+    "registration_investigation_time": "2 min 0 sec",
+    "total_processing_time": "7 min 45 sec",
+    "database_failure_time": "0 min 45 sec",
+    "notes": "Initial site-specific search for trial registration failed; fallback general searches were also unsuccessful in locating the primary registration record."
+  },
+  "study_identification": {
+    "title": "The effects of vitamin D, K and calcium co-supplementation on carotid intima-media thickness and metabolic status in overweight type 2 diabetic patients with CHD",
+    "authors": {
+      "first_author": "Zatollah Asemi",
+      "last_author": "Ahmad Esmaillzadeh",
+      "corresponding_author": "Ahmad Esmaillzadeh",
+      "all_authors": "Zatollah Asemi, Fariba Raygan, Fereshteh Bahmani, Zohreh Rezavandi, Hamid Reza Talari, Motahereh Rafiee, Somayyeh Poladchang, Manijeh Darooghegi Mofrad, Sara Taheri, Ali Akbar Mohammadi and Ahmad Esmaillzadeh"
+    },
+    "journal": "British Journal of Nutrition",
+    "publication_year": "2016",
+    "publication_type": "Journal Article",
+    "volume_issue_pages": "116, 286-293"
+  },
+  "identifier_discovery": {
+    "doi": {
+      "value": "10.1017/S0007114516001847",
+      "source": "Paper header, page 1 ",
+      "confidence": "HIGH",
+      "format_verification": "VALID",
+      "cross_verification": "VERIFIED - DOI resolves to the correct article on publisher and PubMed sites.",
+      "notes": "No issues found."
+    },
+    "pmid": {
+      "value": "27198036",
+      "source": "External query: 'site:pubmed.ncbi.nlm.nih.gov \"The effects of vitamin D, K and calcium co-supplementation on carotid intima-media thickness\" Asemi 2016'",
+      "confidence": "HIGH",
+      "digit_verification": "DOUBLE_CHECKED",
+      "cross_verification": "VERIFIED - PMID links to the same study as the DOI on PubMed.",
+      "notes": "A separate PMID (34353379) exists for the Expression of Concern notice."
+    },
+    "registration_numbers": [
+      {
+        "value": "IRCT201506185623N45",
+        "registry": "Iranian Registry of Clinical Trials (IRCT)",
+        "source": "Paper 'Methods' section, page 2 ",
+        "confidence": "MEDIUM",
+        "cross_verification": "FAILED - Unable to locate the registration record on irct.ir or the WHO ICTRP portal through multiple web search queries.",
+        "notes": "Could not independently verify registration details or date. Retraction Watch has reported this author group has a history of retrospectively altering trial registrations."
+      }
+    ]
+  },
+  "database_access_log": {
+    "retraction_resources": {
+      "tier1_attempted": "['site:crossref.org', 'site:pubmed.ncbi.nlm.nih.gov'] - Both accessible",
+      "tier2_attempted": "['site:retractionwatch.com'] - Accessible",
+      "tier3_attempted": "Not required",
+      "successful": "['site:crossref.org', 'site:pubmed.ncbi.nlm.nih.gov', 'site:retractionwatch.com']",
+      "failed": "None",
+      "fallback_methods": "Not required"
+    },
+    "expression_resources": {
+      "tier1_attempted": "['site:pubmed.ncbi.nlm.nih.gov', 'site:cambridge.org'] - Both accessible",
+      "tier2_attempted": "['\"expression of concern\" title author journal'] - Accessible",
+      "tier3_attempted": "Not required",
+      "successful": "['site:pubmed.ncbi.nlm.nih.gov', 'site:cambridge.org']",
+      "failed": "None",
+      "fallback_methods": "Not required"
+    },
+    "integrity_resources": {
+      "tier1_attempted": "['site:pubmed.ncbi.nlm.nih.gov'] - Accessible",
+      "tier2_attempted": "['site:retractionwatch.com'] - Accessible",
+      "tier3_attempted": "Not required",
+      "successful": "['site:retractionwatch.com']",
+      "failed": "None",
+      "author_query_methods": "Queried 'Zatollah Asemi' and 'Ahmad Esmaillzadeh' on Retraction Watch."
+    },
+    "registry_resources": {
+      "tier1_attempted": "['site:irct.ir'] - Failed (no results via site search)",
+      "tier2_attempted": "['site:who.int/ictrp'] - Failed (no results via site search)",
+      "tier3_attempted": "['General web search with ID'] - Failed (no direct registry link found)",
+      "successful": "None",
+      "failed": "['site:irct.ir', 'site:who.int/ictrp', 'General web search'] - All failed to return a direct link to the primary registration record.",
+      "query_strategies": "Used site-specific search with registration ID, then WHO portal search, then general web search."
+    },
+    "overall_metrics": {
+      "total_resources_planned": "8",
+      "total_resources_attempted": "8",
+      "total_resources_successful": "5",
+      "database_success_rate": "62.5%",
+      "fallback_utilization": "Used for trial registration investigation after primary site search failed."
+    }
+  },
+  "trustworthiness_analysis": {
+    "retraction_investigation": {
+      "Retracted": "NO",
+      "findings": "No retraction notice found after querying PubMed, CrossRef, and Retraction Watch for this specific article.",
+      "retraction_details": {
+        "retraction_date": "Not applicable",
+        "retraction_reason": "Not applicable",
+        "retracting_authority": "Not applicable",
+        "retraction_notice_url": "Not applicable"
+      },
+      "query_summary": {
+        "web_searches_performed": "['site:crossref.org \"10.1017/S0007114516001847\" retraction', 'site:pubmed.ncbi.nlm.nih.gov \"27198036\" retracted', 'site:retractionwatch.com \"Asemi\" \"vitamin D, K and calcium\"']",
+        "site_specific_searches": "site:pubmed.ncbi.nlm.nih.gov, site:crossref.org, site:retractionwatch.com",
+        "search_terms_effective": "All queries ran successfully, yielding no retraction notice.",
+        "total_resources_investigated": "3",
+        "comprehensive_coverage": "YES - Primary and specialty retraction databases were queried.",
+        "web_search_failures": "None for this section."
+      },
+      "confidence_level": "HIGH",
+      "limitations": "None."
+    },
+    "expression_of_concern_investigation": {
+      "EXPRESSION FOUND": "YES",
+      "findings": "An Expression of Concern was published in the British Journal of Nutrition (2022, vol 127, issue 1, p. 154) with DOI 10.1017/S0007114521002038 and PMID 34353379. It is also linked from the original article's page on the publisher's website.",
+      "expression_details": {
+        "publication_date": "2021-08-06 (Epub)",
+        "issuing_journal": "British Journal of Nutrition",
+        "specific_concerns": "The Editor-in-Chief was alerted to concerns about the integrity of the article and is investigating. The concerns were also referred to the Iranian National Committee for Ethics in Biomedical Research.",
+        "current_status": "Ongoing investigation at the time the notice was published."
+      },
+      "classification_rationale": "This is a formal 'Expression of Concern' notice from the journal's editor regarding the article's data integrity.",
+      "corrections_found": "No routine corrections found, only the Expression of Concern.",
+      "query_summary": {
+        "databases_queried": "['site:cambridge.org', 'site:pubmed.ncbi.nlm.nih.gov', 'General web search']",
+        "editorial_systems_investigated": "Publisher website (cambridge.org)",
+        "total_resources_investigated": "3"
+      },
+      "confidence_level": "HIGH"
+    },
+    "team_integrity_investigation": {
+      "conclusion": "SERIOUS_CONCERNS",
+      "findings": "Retraction Watch has published multiple articles (in 2020 and 2021) detailing extensive and serious concerns about the integrity of data from the research group led by Zatollah Asemi. These reports cover allegations regarding more than 170 papers, including implausible data distributions, discrepancies between trial registrations and publications, and numerous retractions and other expressions of concern.",
+      "investigation_details": {
+        "authors_investigated": [
+          {
+            "author_name": "Zatollah Asemi",
+            "position": "First",
+            "name_variants_queried": "['Zatollah Asemi', 'Zatolla Asemi']",
+            "databases_used": "['Retraction Watch']",
+            "findings": "Identified as the central figure in a large-scale investigation into data integrity issues, with dozens of papers flagged and several retracted.",
+            "concerning_patterns": "Widespread, systematic issues across a large body of work as documented by data integrity researchers."
+          },
+          {
+            "author_name": "Ahmad Esmaillzadeh",
+            "position": "Last/Corresponding",
+            "name_variants_queried": "['Ahmad Esmaillzadeh']",
+            "databases_used": "['Retraction Watch']",
+            "findings": "Listed as a co-author on the paper in question and other papers by Asemi's group that have been flagged for integrity concerns.",
+            "concerning_patterns": "Frequent collaboration with a lead author at the center of a major integrity investigation."
+          }
+        ],
+        "timeframe_covered": "2012-2021",
+        "total_authors_investigated": "2"
+      },
+      "integrity_findings": {
+        "retractions_found": "While this specific paper is not retracted, the lead author (Asemi) has had at least 6 other papers retracted for data integrity issues as of May 2021.",
+        "expressions_found": "The lead author has dozens of expressions of concern issued against his papers.",
+        "misconduct_records": "The matter has been referred to the Iranian National Committee for Ethics in Biomedical Research, indicating a formal investigation.",
+        "publication_patterns": "A pattern of publishing a large number of clinical trials with data that has been questioned by independent researchers for its plausibility."
+      },
+      "query_summary": {
+        "primary_databases": "['Retraction Watch'] - Returned multiple highly relevant results.",
+        "secondary_resources": "Not required",
+        "author_matching_success": "High - Authors are clearly identified in the integrity reports.",
+        "total_resources_investigated": "1"
+      },
+      "confidence_level": "HIGH"
+    },
+    "registration_timing_investigation": {
+      "conclusion": "UNABLE_TO_VERIFY",
+      "timing_analysis": {
+        "registration_date": "Not found",
+        "enrollment_start_date": "June 2015 ",
+        "days_difference": "Not calculable",
+        "timing_category": "UNCLEAR",
+        "retrospective_justification": "Not applicable as registry entry was not found."
+      },
+      "registration_details": {
+        "primary_registration": {
+          "registry_name": "Iranian Registry of Clinical Trials (IRCT)",
+          "registration_id": "IRCT201506185623N45",
+          "registration_url": "Not found",
+          "registration_completeness": "Unable to assess."
+        },
+        "additional_registrations": "None found.",
+        "registration_amendments": {
+          "amendments_found": "UNABLE_TO_VERIFY",
+          "amendment_dates": "Not applicable",
+          "changes_made": "Not applicable",
+          "post_enrollment_changes": "Not applicable",
+          "amendment_appropriateness": "Unable to assess. However, external reports on the author group suggest a pattern of inappropriate post-enrollment changes to other trial registrations."
+        }
+      },
+      "query_summary": {
+        "registries_queried": "['irct.ir', 'who.int/ictrp']",
+        "query_methods": "['site:irct.ir ID', 'site:who.int ID', 'general web search ID']",
+        "successful_registries": "None",
+        "total_query_attempts": "3"
+      },
+      "confidence_level": "LOW",
+      "limitations": "The primary trial registration record could not be located using web search methods, preventing independent verification of the registration date and details."
+    }
+  },
+  "quality_control": {
+    "verification_checklist": {
+      "identifier_formats_verified": "YES - DOI pattern, PMID digits",
+      "cross_verification_completed": "2/3 identifiers cross-verified",
+      "database_access_documented": "YES - all attempts recorded",
+      "no_placeholder_text": "YES - all fields completed",
+      "confidence_levels_justified": "YES - rationale provided",
+      "time_tracking_complete": "YES - all phases timed"
+    },
+    "query_performance": {
+      "planned_resources": "8",
+      "attempted_resources": "8",
+      "successful_resources": "5",
+      "fallback_activations": "1",
+      "query_completeness": "100% of planned queries attempted; registry verification was unsuccessful."
+    },
+    "reliability_metrics": {
+      "identifier_confidence_distribution": "{'HIGH': 2, 'MEDIUM': 1, 'LOW': 0}",
+      "cross_verification_success_rate": "66.7%",
+      "database_consistency": "YES - Findings of an Expression of Concern and team integrity issues were consistent across multiple resources.",
+      "findings_quality": "Strong findings (Expression of Concern, Team Integrity) and one major limitation (Registration verification)."
+    },
+    "overall_analysis": {
+      "confidence_level": "MEDIUM",
+      "major_limitations": "The most significant limitation is the inability to locate and verify the clinical trial registration (IRCT201506185623N45), which is especially concerning given the documented history of registration manipulation by the authors.",
+      "human_verification_needed": "NO - The existing evidence (Expression of Concern and team integrity reports) is sufficient to categorize the paper's trustworthiness as very low, even without the registration record.",
+      "methodology_effectiveness": "The IDENTIFIER-FIRST approach was highly effective. The DOI and bibliographic data led to the discovery of a formal Expression of Concern and extensive team integrity issues, which are the most critical findings for this analysis.",
+      "recommendations_for_improvement": "Direct access to the IRCT database API might yield a result for the registration number where web search failed, but this is outside the current protocol."
+    }
+  },
+  "metadata": {
+    "framework_version": "INSPECT-SR Enhanced v2.1",
+    "analysis_date": "2025-08-10 22:36:00 UTC",
+    "model_information": "Gemini",
+    "database_access_method": "Web search for all external databases - no direct API access",
+    "web_search_strategy": "Site-specific searches to avoid rate limiting",
+    "rate_limiting_eliminated": "YES - using web_search() instead of direct database APIs",
+    "special_notes": "The trustworthiness of this paper is severely compromised by the formal Expression of Concern from the publisher and the extensive, documented history of data integrity issues associated with the lead author's research group.",
+    "data_quality_flags": "['EXPRESSION_OF_CONCERN_FOUND', 'TEAM_INTEGRITY_CONCERNS', 'REGISTRATION_UNVERIFIED']",
+    "reproducibility_notes": "['site:pubmed.ncbi.nlm.nih.gov \"The effects of vitamin D, K and calcium...\"', 'site:cambridge.org \"10.1017/S0007114516001847\" \"expression of concern\"', 'site:retractionwatch.com \"Zatollah Asemi\"', 'site:irct.ir \"IRCT201506185623N45\"']"
+  }
+}

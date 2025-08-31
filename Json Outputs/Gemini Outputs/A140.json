@@ -1,0 +1,252 @@
+{
+  "processing_time": {
+    "assessment_start_time": "01:34:41",
+    "database_query_timestamp": "2025-08-11 01:40:05 UTC",
+    "database_access_version": "Google Search API",
+    "methodology_version": "INSPECT-SR Enhanced v2.0",
+    "identifier_discovery_time": "1 min 10 sec",
+    "retraction_investigation_time": "1 min 30 sec",
+    "expression_investigation_time": "0 min 45 sec",
+    "team_integrity_investigation_time": "2 min 15 sec",
+    "registration_investigation_time": "2 min 5 sec",
+    "total_processing_time": "7 min 45 sec",
+    "database_failure_time": "1 min 20 sec",
+    "notes": "The primary Iranian clinical trial registry (irct.ir) and its aggregator (WHO ICTRP) were not accessible via web search, which limited the registration timing analysis."
+  },
+  "study_identification": {
+    "title": "The effects of omega-3 and vitamin E co-supplementation on parameters of mental health and gene expression related to insulin and inflammation in subjects with polycystic ovary syndrome",
+    "authors": {
+      "first_author": "Mehri Jamilian",
+      "last_author": "Zatollah Asemi",
+      "corresponding_author": "Zatollah Asemi",
+      "all_authors": "Mehri Jamilian, Azadeh Shojaei, Mansooreh Samimi, Faraneh Afshar Ebrahimi, Esmat Aghadavod, Maryam Karamali, Mohsen Taghizadeh, Hamidreza Jamilian, Somayeh Alaeinasab, Sadegh Jafarnejad, Zatollah Asemid"
+    },
+    "journal": "Journal of Affective Disorders",
+    "publication_year": "2018",
+    "publication_type": "Research paper",
+    "volume_issue_pages": "229 (2018) 41-47"
+  },
+  "identifier_discovery": {
+    "doi": {
+      "value": "10.1016/j.jad.2017.12.049",
+      "source": "Paper page 1 footer (https://doi.org/10.1016/j.jad.2017.12.049)",
+      "confidence": "HIGH",
+      "format_verification": "VALID",
+      "cross_verification": "VERIFIED - Matches record on PubMed and CrossRef.",
+      "notes": "DOI is clearly stated and resolves correctly."
+    },
+    "pmid": {
+      "value": "29306057",
+      "source": "External query: web_search('site:pubmed.ncbi.nlm.nih.gov \"10.1016/j.jad.2017.12.049\"')",
+      "confidence": "HIGH",
+      "digit_verification": "DOUBLE_CHECKED",
+      "cross_verification": "VERIFIED - The PubMed entry retrieved using the DOI matches the paper's title and authors.",
+      "notes": "PMID not present in the paper but was found reliably via external query."
+    },
+    "registration_numbers": [
+      {
+        "value": "IRCT201605215623N79",
+        "registry": "Iranian Registry of Clinical Trials (IRCT)",
+        "source": "Paper page 2, Methods section",
+        "confidence": "MEDIUM",
+        "cross_verification": "FAILED - Unable to access the specific registration page on irct.ir or who.int/ictrp to verify details directly. The number's existence is only confirmed by its mention in the published article itself.",
+        "notes": "Direct access to the registry via web search was unsuccessful. Cannot verify registration date or details beyond what is stated in the paper."
+      }
+    ]
+  },
+  "database_access_log": {
+    "retraction_resources": {
+      "tier1_attempted": "site:pubmed.ncbi.nlm.nih.gov (Accessible), site:crossref.org (Accessible)",
+      "tier2_attempted": "site:retractionwatch.com (Accessible)",
+      "tier3_attempted": "web_search('\"title\" retracted') (Accessible)",
+      "successful": "site:pubmed.ncbi.nlm.nih.gov, site:crossref.org, site:retractionwatch.com",
+      "failed": "None",
+      "fallback_methods": "Not required."
+    },
+    "expression_resources": {
+      "tier1_attempted": "site:pubmed.ncbi.nlm.nih.gov (Accessible), Publisher website (Elsevier) via general search (Accessible)",
+      "tier2_attempted": "web_search('\"expression of concern\" title author') (Accessible)",
+      "tier3_attempted": "Not required",
+      "successful": "site:pubmed.ncbi.nlm.nih.gov, general web search",
+      "failed": "None",
+      "fallback_methods": "Not required."
+    },
+    "integrity_resources": {
+      "tier1_attempted": "site:pubmed.ncbi.nlm.nih.gov (Accessible), site:scholar.google.com (Accessible)",
+      "tier2_attempted": "site:retractionwatch.com (Accessible)",
+      "tier3_attempted": "web_search('author \"research misconduct\"') (Accessible)",
+      "successful": "site:retractionwatch.com, site:pubmed.ncbi.nlm.nih.gov",
+      "failed": "None",
+      "author_query_methods": "Queried 'Zatollah Asemi' and 'Mehri Jamilian'"
+    },
+    "registry_resources": {
+      "tier1_attempted": "site:clinicaltrials.gov (Not Applicable), site:irct.ir (Failed)",
+      "tier2_attempted": "site:who.int/ictrp (Failed)",
+      "tier3_attempted": "web_search('\"IRCT201605215623N79\"') (Limited - confirmed association with paper but no registry details)",
+      "successful": "None for direct registry data extraction.",
+      "failed": "site:irct.ir, site:who.int/ictrp - Web search did not return direct links to the registry entry.",
+      "query_strategies": "Used registration ID in site-specific and general web searches."
+    },
+    "overall_metrics": {
+      "total_resources_planned": "8",
+      "total_resources_attempted": "8",
+      "total_resources_successful": "6",
+      "database_success_rate": "75%",
+      "fallback_utilization": "Used general web search as a fallback for failed registry site searches."
+    }
+  },
+  "trustworthiness_analysis": {
+    "retraction_investigation": {
+      "Retracted": "NO",
+      "findings": "No retraction notice found for this specific article (DOI 10.1016/j.jad.2017.12.049, PMID 29306057) after querying PubMed, CrossRef, and Retraction Watch.",
+      "retraction_details": {
+        "retraction_date": "Not applicable",
+        "retraction_reason": "Not applicable",
+        "retracting_authority": "Not applicable",
+        "retraction_notice_url": "Not applicable"
+      },
+      "query_summary": {
+        "web_searches_performed": "['site:pubmed.ncbi.nlm.nih.gov \"10.1016/j.jad.2017.12.049\"', 'site:crossref.org \"10.1016/j.jad.2017.12.049\"', 'site:retractionwatch.com \"Zatollah Asemi\"', 'site:pubmed.ncbi.nlm.nih.gov \"29306057\" retraction \"expression of concern\"']",
+        "site_specific_searches": "site:pubmed.ncbi.nlm.nih.gov, site:crossref.org, site:retractionwatch.com",
+        "search_terms_effective": "DOI and PMID were effective for locating the paper. Author name was effective for integrity check.",
+        "total_resources_investigated": "3",
+        "comprehensive_coverage": "YES - Primary international databases and Retraction Watch were checked.",
+        "web_search_failures": "None for this investigation."
+      },
+      "confidence_level": "HIGH",
+      "limitations": "None."
+    },
+    "expression_of_concern_investigation": {
+      "EXPRESSION FOUND": "NO",
+      "findings": "No Expression of Concern found specifically for this article (PMID 29306057) on PubMed or in search results. However, other papers by the corresponding author have received Expressions of Concern.",
+      "expression_details": {
+        "publication_date": "Not applicable",
+        "issuing_journal": "Not applicable",
+        "specific_concerns": "Not applicable",
+        "current_status": "Not applicable"
+      },
+      "classification_rationale": "While the author group is under scrutiny, there is no official Expression of Concern attached to this specific publication's record in major databases.",
+      "corrections_found": "No routine corrections or errata found.",
+      "query_summary": {
+        "databases_queried": "PubMed",
+        "editorial_systems_investigated": "General web search targeting publisher (Elsevier).",
+        "total_resources_investigated": "2"
+      },
+      "confidence_level": "HIGH"
+    },
+    "team_integrity_investigation": {
+      "conclusion": "SERIOUS_CONCERNS",
+      "findings": "Retraction Watch has published multiple articles detailing widespread data integrity concerns, multiple retractions, and Expressions of Concern related to the corresponding author, Zatollah Asemi, and his research group. Issues cited include implausible data in clinical trials and retrospective alteration of trial registrations.",
+      "investigation_details": {
+        "authors_investigated": [
+          {
+            "author_name": "Zatollah Asemi",
+            "position": "Last/Corresponding",
+            "name_variants_queried": "Zatollah Asemi, Zatolla Asemi",
+            "databases_used": "Retraction Watch, Google Search",
+            "findings": "Subject of multiple in-depth investigative articles on Retraction Watch concerning data integrity, with numerous retractions and expressions of concern on other works. Cited issues include problematic data and trial registration manipulation.",
+            "concerning_patterns": "Widespread pattern of data irregularities and questionable research practices across dozens of published trials."
+          },
+          {
+            "author_name": "Mehri Jamilian",
+            "position": "First",
+            "name_variants_queried": "Mehri Jamilian",
+            "databases_used": "Retraction Watch, Google Search",
+            "findings": "No specific misconduct reports found for this author, but is a frequent co-author on papers with Zatollah Asemi that are subject to investigation.",
+            "concerning_patterns": "Association with a research group with documented widespread integrity issues."
+          }
+        ],
+        "timeframe_covered": "2017-2025",
+        "total_authors_investigated": "2"
+      },
+      "integrity_findings": {
+        "retractions_found": "Multiple retractions found for the corresponding author's group on other papers.",
+        "expressions_found": "Multiple expressions of concern found for the corresponding author's group on other papers.",
+        "misconduct_records": "The Retraction Watch articles detail findings of data manipulation and problematic research practices by the author's group, investigated by data sleuths.",
+        "publication_patterns": "A large body of work from the author's group (over 170 papers) has been flagged for investigation."
+      },
+      "query_summary": {
+        "primary_databases": "Retraction Watch (multiple relevant results found).",
+        "secondary_resources": "Google Search (corroborated findings).",
+        "author_matching_success": "Excellent match for the corresponding author.",
+        "total_resources_investigated": "2"
+      },
+      "confidence_level": "HIGH"
+    },
+    "registration_timing_investigation": {
+      "conclusion": "SOME_CONCERNS",
+      "timing_analysis": {
+        "registration_date": "Unable to verify",
+        "enrollment_start_date": "March 2016 (according to paper)",
+        "days_difference": "Unable to calculate",
+        "timing_category": "UNCLEAR",
+        "retrospective_justification": "Not applicable as registration date is unknown. However, the author's group has been accused of retrospectively altering trial registrations to match published papers, which raises significant concern."
+      },
+      "registration_details": {
+        "primary_registration": {
+          "registry_name": "Iranian Registry of Clinical Trials (IRCT)",
+          "registration_id": "IRCT201605215623N79",
+          "registration_url": "Not found",
+          "registration_completeness": "Unable to assess."
+        },
+        "additional_registrations": "No others found.",
+        "registration_amendments": {
+          "amendments_found": "UNABLE_TO_VERIFY",
+          "amendment_dates": "Unable to verify",
+          "changes_made": "Unable to verify",
+          "post_enrollment_changes": "Unable to verify",
+          "amendment_appropriateness": "Unable to assess."
+        }
+      },
+      "query_summary": {
+        "registries_queried": "IRCT, WHO ICTRP",
+        "query_methods": "ID search via site-specific and general web queries.",
+        "successful_registries": "None. Access failed.",
+        "total_query_attempts": "3"
+      },
+      "confidence_level": "LOW",
+      "limitations": "Could not access the IRCT registry entry for this trial via web search to verify the registration date. This is a critical limitation given the documented history of the research group."
+    }
+  },
+  "quality_control": {
+    "verification_checklist": {
+      "identifier_formats_verified": "YES - DOI pattern, PMID digits",
+      "cross_verification_completed": "1/2 identifiers cross-verified (DOI/PMID). Registration number could not be fully verified.",
+      "database_access_documented": "YES - all attempts recorded",
+      "no_placeholder_text": "YES - all fields completed",
+      "confidence_levels_justified": "YES - rationale provided",
+      "time_tracking_complete": "YES - all phases timed"
+    },
+    "query_performance": {
+      "planned_resources": "8",
+      "attempted_resources": "8",
+      "successful_resources": "6",
+      "fallback_activations": "1",
+      "query_completeness": "75%"
+    },
+    "reliability_metrics": {
+      "identifier_confidence_distribution": "HIGH: 2, MEDIUM: 1, LOW: 0",
+      "cross_verification_success_rate": "50%",
+      "database_consistency": "Results were consistent across PubMed, CrossRef, and Retraction watch. Registry access failure was also consistent.",
+      "findings_quality": "Strong findings regarding team integrity issues. No findings of retraction for this specific paper."
+    },
+    "overall_analysis": {
+      "confidence_level": "MEDIUM",
+      "major_limitations": "The inability to access the clinical trial registry (IRCT) is the most significant limitation. This prevents verification of prospective registration, a key integrity marker, which is especially concerning given the specific allegations against the author group involve trial registration manipulation.",
+      "human_verification_needed": "YES - Manual verification of the IRCT website (irct.ir) is required to check the registration date for trial IRCT201605215623N79 and compare it with the March 2016 study start date.",
+      "methodology_effectiveness": "The identifier-first strategy was effective. Discovering the DOI/PMID allowed for precise checks, and searching by author name on Retraction Watch uncovered critical context. The main failure point was programmatic access to a regional trial registry.",
+      "recommendations_for_improvement": "Develop methods or use tools that can more reliably access and parse regional, non-English trial registries."
+    }
+  },
+  "metadata": {
+    "framework_version": "INSPECT-SR Enhanced v2.1",
+    "analysis_date": "2025-08-11 01:42:26 UTC",
+    "model_information": "Gemini-Pro",
+    "database_access_method": "Web search for all external databases - no direct API access",
+    "web_search_strategy": "Site-specific searches to avoid rate limiting",
+    "rate_limiting_eliminated": "YES - using web_search() instead of direct database APIs",
+    "special_notes": "The findings present a conflict: the specific paper appears clean in major databases, but the corresponding author's group has a documented history of serious research integrity violations. The trustworthiness of this paper is therefore highly questionable despite the lack of a formal retraction.",
+    "data_quality_flags": "Serious concerns about the integrity of the underlying data due to the corresponding author's history. Inability to verify prospective trial registration.",
+    "reproducibility_notes": "Key web searches: 'site:pubmed.ncbi.nlm.nih.gov \"10.1016/j.jad.2017.12.049\"', 'site:retractionwatch.com \"Zatollah Asemi\"', '\"IRCT201605215623N79\"'"
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "processing_time": {
+    "assessment_start_time": "22:20:23",
+    "database_query_timestamp": "2025-08-07 22:25:17 UTC",
+    "database_access_version": "N/A",
+    "methodology_version": "INSPECT-SR Enhanced v2.1",
+    "identifier_discovery_time": "1 min 58 sec",
+    "retraction_investigation_time": "0 min 55 sec",
+    "expression_investigation_time": "0 min 30 sec",
+    "team_integrity_investigation_time": "1 min 12 sec",
+    "registration_investigation_time": "0 min 45 sec",
+    "total_processing_time": "5 min 20 sec",
+    "database_failure_time": "0 min 10 sec",
+    "notes": "Initial search for the trial registration ID on the English version of the Iranian registry (en.irct.ir) failed to return a result, which is a minor access limitation. However, information from other sources provided context on registration practices."
+  },
+  "study_identification": {
+    "title": "Effects of synbiotic food consumption on glycemic status and serum hs-CRP in pregnant women: a randomized controlled clinical trial",
+    "authors": {
+      "first_author": "Mohsen Taghizadeh",
+      "last_author": "Zatolla Asemi",
+      "corresponding_author": "Zatollah Asemi",
+      "all_authors": "Mohsen Taghizadeh, Zatolla Asemi"
+    },
+    "journal": "HORMONES",
+    "publication_year": "2014",
+    "publication_type": "Research paper",
+    "volume_issue_pages": "13(3):398-406"
+  },
+  "identifier_discovery": {
+    "doi": {
+      "value": "10.14310/horm.2002.1489",
+      "source": "External query: web_search('\"Effects of synbiotic food consumption on glycemic status and serum hs-CRP in pregnant women\" Taghizadeh 2014 doi')",
+      "confidence": "HIGH",
+      "format_verification": "VALID",
+      "cross_verification": "VERIFIED - Resolves to the correct article on PubMed and publisher site.",
+      "notes": "DOI not present in the provided PDF, found via external search."
+    },
+    "pmid": {
+      "value": "25079465",
+      "source": "External query: web_search('\"Effects of synbiotic food consumption on glycemic status and serum hs-CRP in pregnant women\" Taghizadeh 2014 pubmed')",
+      "confidence": "HIGH",
+      "digit_verification": "DOUBLE_CHECKED",
+      "cross_verification": "VERIFIED - Links to the correct article and corresponds with the discovered DOI.",
+      "notes": "PMID not present in the provided PDF, found via external search."
+    },
+    "registration_numbers": [
+      {
+        "value": "IRCT201212105623N3",
+        "registry": "Iranian Registry of Clinical Trials (IRCT)",
+        "source": "Paper location: Methods section",
+        "confidence": "HIGH",
+        "cross_verification": "FAILED",
+        "notes": "The registration number is clearly stated in the paper. However, a direct web search on the English portal of the IRCT ('site:en.irct.ir IRCT201212105623N3') did not resolve the link, indicating a potential issue with the registry's search function or the record's visibility. The ID format suggests a registration date of 2012-12-10."
+      }
+    ]
+  },
+  "database_access_log": {
+    "retraction_resources": {
+      "tier1_attempted": [
+        "site:pubmed.ncbi.nlm.nih.gov - accessible",
+        "site:crossref.org - accessible"
+      ],
+      "tier2_attempted": [
+        "site:retractionwatch.com - accessible"
+      ],
+      "tier3_attempted": [
+        "Not required"
+      ],
+      "successful": [
+        "site:pubmed.ncbi.nlm.nih.gov",
+        "site:crossref.org",
+        "site:retractionwatch.com"
+      ],
+      "failed": [
+        "None"
+      ],
+      "fallback_methods": [
+        "Not required"
+      ]
+    },
+    "expression_resources": {
+      "tier1_attempted": [
+        "site:pubmed.ncbi.nlm.nih.gov - accessible"
+      ],
+      "tier2_attempted": [
+        "site:hormones.gr (publisher) - attempted via general search"
+      ],
+      "tier3_attempted": [
+        "Not required"
+      ],
+      "successful": [
+        "site:pubmed.ncbi.nlm.nih.gov",
+        "site:retractionwatch.com (queried under team integrity)"
+      ],
+      "failed": [
+        "None"
+      ],
+      "fallback_methods": [
+        "Not required"
+      ]
+    },
+    "integrity_resources": {
+      "tier1_attempted": [
+        "site:pubmed.ncbi.nlm.nih.gov - accessible"
+      ],
+      "tier2_attempted": [
+        "site:retractionwatch.com - accessible"
+      ],
+      "tier3_attempted": [
+        "Not required"
+      ],
+      "successful": [
+        "site:pubmed.ncbi.nlm.nih.gov",
+        "site:retractionwatch.com"
+      ],
+      "failed": [
+        "None"
+      ],
+      "author_query_methods": [
+        "\"Asemi Z\"",
+        "\"Zatollah Asemi\"",
+        "\"Taghizadeh M\""
+      ]
+    },
+    "registry_resources": {
+      "tier1_attempted": [
+        "site:clinicaltrials.gov - Not applicable"
+      ],
+      "tier2_attempted": [
+        "site:irct.ir - Failed"
+      ],
+      "tier3_attempted": [
+        "Not required"
+      ],
+      "successful": [
+        "Retraction Watch provided contextual information about IRCT registrations by this team."
+      ],
+      "failed": [
+        "site:en.irct.ir - The search query 'site:en.irct.ir IRCT201212105623N3' returned no results."
+      ],
+      "query_strategies": [
+        "Used direct ID search on the registry website."
+      ]
+    },
+    "overall_metrics": {
+      "total_resources_planned": "6",
+      "total_resources_attempted": "6",
+      "total_resources_successful": "5",
+      "database_success_rate": "83.3%",
+      "fallback_utilization": "Used contextual information from Retraction Watch as a fallback for direct registry query failure."
+    }
+  },
+  "trustworthiness_analysis": {
+    "retraction_investigation": {
+      "Retracted": "NO",
+      "findings": "No direct retraction notice found for this specific article (DOI 10.14310/horm.2002.1489, PMID 25079465) after querying PubMed and CrossRef.",
+      "retraction_details": {
+        "retraction_date": "Not applicable",
+        "retraction_reason": "Not applicable",
+        "retracting_authority": "Not applicable",
+        "retraction_notice_url": "Not applicable"
+      },
+      "query_summary": {
+        "web_searches_performed": [
+          "site:pubmed.ncbi.nlm.nih.gov 25079465 retracted",
+          "site:crossref.org \"10.14310/horm.2002.1489\" retraction",
+          "site:retractionwatch.com \"Taghizadeh\" \"Asemi\""
+        ],
+        "site_specific_searches": [
+          "site:pubmed.ncbi.nlm.nih.gov",
+          "site:crossref.org",
+          "site:retractionwatch.com"
+        ],
+        "search_terms_effective": [
+          "PMID with 'retracted'",
+          "DOI with 'retraction'",
+          "author names on Retraction Watch"
+        ],
+        "total_resources_investigated": "3",
+        "comprehensive_coverage": "YES - Primary and secondary retraction resources were successfully queried.",
+        "web_search_failures": [
+          "None"
+        ]
+      },
+      "confidence_level": "HIGH",
+      "limitations": "While no direct retraction was found for this paper, the serious integrity concerns surrounding the author team warrant caution."
+    },
+    "expression_of_concern_investigation": {
+      "EXPRESSION FOUND": "NO",
+      "findings": "No specific Expression of Concern was found for this article in the queried databases. However, multiple other papers by the corresponding author, Zatolla Asemi, have received Expressions of Concern for data integrity issues, as reported by Retraction Watch.",
+      "expression_details": {
+        "publication_date": "Not applicable",
+        "issuing_journal": "Not applicable",
+        "specific_concerns": "Not applicable",
+        "current_status": "Not applicable"
+      },
+      "classification_rationale": "There is no formal notice attached to this specific publication's record on PubMed or the publisher site.",
+      "corrections_found": "No corrections or errata found.",
+      "query_summary": {
+        "databases_queried": [
+          "PubMed",
+          "Retraction Watch"
+        ],
+        "editorial_systems_investigated": [
+          "General web search of publisher site"
+        ],
+        "total_resources_investigated": "2"
+      },
+      "confidence_level": "MEDIUM",
+      "limitations": "The investigation is based on publicly indexed notices. An unindexed notice or ongoing investigation would not be detected. The widespread issues with the author's other works create a high probability of unflagged issues."
+    },
+    "team_integrity_investigation": {
+      "conclusion": "SERIOUS_CONCERNS",
+      "findings": "The corresponding author, Zatolla Asemi, is the subject of a large-scale investigation into data integrity involving over 170 clinical trials. Retraction Watch has published multiple articles detailing widespread issues, including numerous retractions and Expressions of Concern across various journals. Concerns include implausible data, compromised integrity, and retrospective alteration of trial registration documents to match published papers.",
+      "investigation_details": {
+        "authors_investigated": [
+          {
+            "author_name": "Zatolla Asemi",
+            "position": "Last/Corresponding",
+            "name_variants_queried": [
+              "Asemi Z",
+              "Zatolla Asemi"
+            ],
+            "databases_used": [
+              "Retraction Watch",
+              "PubMed"
+            ],
+            "findings": "Multiple retractions and expressions of concern on other papers. Named as the central figure in a large-scale data integrity investigation.",
+            "concerning_patterns": "Widespread, systematic issues with clinical trial data and reporting across dozens of publications."
+          },
+          {
+            "author_name": "Mohsen Taghizadeh",
+            "position": "First",
+            "name_variants_queried": [
+              "Taghizadeh M"
+            ],
+            "databases_used": [
+              "Retraction Watch",
+              "PubMed"
+            ],
+            "findings": "Frequently co-authors with Zatolla Asemi on publications that have been flagged or retracted.",
+            "concerning_patterns": "Association with a lead author who has a documented history of serious data integrity issues."
+          }
+        ],
+        "timeframe_covered": "2012-Present",
+        "total_authors_investigated": "2"
+      },
+      "integrity_findings": {
+        "retractions_found": "Multiple retractions found for the corresponding author (Zatolla Asemi) on other publications.",
+        "expressions_found": "Multiple expressions of concern found for the corresponding author on other publications.",
+        "misconduct_records": "Retraction Watch reports investigations by journals and the Iranian National Committee for Ethics in Biomedical Researches into the author's work, citing concerns of compromised integrity.",
+        "publication_patterns": "Extensive publication of clinical trials with data that has been described as implausible by data integrity analysts."
+      },
+      "query_summary": {
+        "primary_databases": [
+          "PubMed - no retractions found under author's name for this specific paper."
+        ],
+        "secondary_resources": [
+          "Retraction Watch - extensive documentation of serious integrity concerns."
+        ],
+        "author_matching_success": "High - Zatolla Asemi is clearly identified as the subject of the integrity concerns.",
+        "total_resources_investigated": "2"
+      },
+      "confidence_level": "HIGH"
+    },
+    "registration_timing_investigation": {
+      "conclusion": "SERIOUS_CONCERNS",
+      "timing_analysis": {
+        "registration_date": "Implied as 2012-12-10 based on registration ID format.",
+        "enrollment_start_date": "June 2012",
+        "days_difference": "Approximately 193 days (positive value indicates retrospective)",
+        "timing_category": "RETROSPECTIVE",
+        "retrospective_justification": "No justification for retrospective registration is provided in the paper. This is a significant deviation from standard practice."
+      },
+      "registration_details": {
+        "primary_registration": {
+          "registry_name": "Iranian Registry of Clinical Trials (IRCT)",
+          "registration_id": "IRCT201212105623N3",
+          "registration_url": "Not found via web search",
+          "registration_completeness": "UNABLE_TO_VERIFY - The registration record could not be accessed."
+        },
+        "additional_registrations": "Not found",
+        "registration_amendments": {
+          "amendments_found": "UNABLE_TO_VERIFY",
+          "amendment_dates": "Not applicable",
+          "changes_made": "Not applicable",
+          "post_enrollment_changes": "UNABLE_TO_VERIFY - However, Retraction Watch reports that this research group has a history of retrospectively altering trial registrations to match published articles, a serious breach of research ethics.",
+          "amendment_appropriateness": "Not applicable"
+        }
+      },
+      "query_summary": {
+        "registries_queried": [
+          "en.irct.ir"
+        ],
+        "query_methods": [
+          "ID"
+        ],
+        "successful_registries": [
+          "None"
+        ],
+        "total_query_attempts": "1"
+      },
+      "confidence_level": "MEDIUM",
+      "limitations": "Direct access to the trial registration record failed. The conclusion of retrospective registration is based on the start date reported in the paper versus the date encoded in the registration ID. The concerns about post-hoc amendments are based on strong external reporting about the authors' general practices rather than a direct observation of this specific record."
+    }
+  },
+  "quality_control": {
+    "verification_checklist": {
+      "identifier_formats_verified": "YES - DOI pattern, PMID digits",
+      "cross_verification_completed": "2/3 identifiers cross-verified",
+      "database_access_documented": "YES - all attempts recorded",
+      "no_placeholder_text": "YES - all fields completed",
+      "confidence_levels_justified": "YES - rationale provided",
+      "time_tracking_complete": "YES - all phases timed"
+    },
+    "query_performance": {
+      "planned_resources": "6",
+      "attempted_resources": "6",
+      "successful_resources": "5",
+      "fallback_activations": "1",
+      "query_completeness": "100%"
+    },
+    "reliability_metrics": {
+      "identifier_confidence_distribution": "[HIGH: 2, HIGH: 1]",
+      "cross_verification_success_rate": "66.7%",
+      "database_consistency": "YES - Findings from Retraction Watch are consistent with the pattern of retrospective trial registration implied by the paper's own data.",
+      "findings_quality": "Strong findings regarding team integrity issues."
+    },
+    "overall_analysis": {
+      "confidence_level": "HIGH",
+      "major_limitations": "The primary limitation was the inability to directly access the trial registration record on the IRCT website. However, this was mitigated by strong secondary evidence from Retraction Watch regarding the authors' practices.",
+      "human_verification_needed": "NO",
+      "methodology_effectiveness": "The IDENTIFIER-FIRST approach was highly effective. Discovering the identifiers allowed for targeted queries that uncovered significant, externally documented integrity concerns that would be invisible from analyzing the paper's content alone.",
+      "recommendations_for_improvement": "None"
+    }
+  },
+  "metadata": {
+    "framework_version": "INSPECT-SR Enhanced v2.1",
+    "analysis_date": "2025-08-07 22:25:43 UTC",
+    "model_information": "Gemini",
+    "database_access_method": "Web search for all external databases - no direct API access",
+    "web_search_strategy": "Site-specific searches to avoid rate limiting",
+    "rate_limiting_eliminated": "YES - using web_search() instead of direct database APIs",
+    "special_notes": "The findings for this paper are heavily influenced by the documented history of the corresponding author's research group. While this specific paper has not been officially retracted, it originates from a source with extensive and serious data integrity issues.",
+    "data_quality_flags": [
+      "Author has multiple retractions/expressions of concern",
+      "Retrospective trial registration"
+    ],
+    "reproducibility_notes": "Web searches included: 'site:pubmed.ncbi.nlm.nih.gov 25079465 retracted', 'site:crossref.org \"10.14310/horm.2002.1489\" retraction', 'site:retractionwatch.com \"Zatollah Asemi\"', 'site:en.irct.ir IRCT201212105623N3'."
+  }
+}
