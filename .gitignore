@@ -14,9 +14,9 @@
 .Rproj.user/
 *.Rproj
 
-# Output files
-results/
-figures/
+# Output files - exclude large generated files but keep folder structure
+# results/
+# figures/
 *.png
 *.jpg
 *.jpeg
@@ -32,6 +32,7 @@ figures/
 *.csv
 !sample_data.csv
 !example_data.csv
+!INSPECT_SR Checks Gagan.xlsx
 
 # Session info
 sessionInfo.txt
