@@ -1,0 +1,72 @@
+# R specific files
+.Rhistory
+.RData
+.Ruserdata
+.Rapp.history
+
+# R package files
+*.Rcheck/
+*.tar.gz
+*.tgz
+*.zip
+
+# RStudio files
+.Rproj.user/
+*.Rproj
+
+# Output files
+results/
+figures/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+*.html
+*.csv
+*.xlsx
+*.tex
+
+# Data files (keep only small sample data)
+*.xlsx
+*.csv
+!sample_data.csv
+!example_data.csv
+
+# Session info
+sessionInfo.txt
+.Rprofile
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.out
+
+# Cache
+.cache/
+cache/
+
+# Environment files
+.env
+.Renviron
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
