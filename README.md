@@ -123,7 +123,7 @@ The framework expects Excel data with columns for:
 If you use this framework in your research, please cite:
 
 ```
-Dhaliwal, G. (2024). INSPECT-SR Framework: Large Language Model Assessment 
+Gagandeep Singh. (2024). INSPECT-SR Framework: Large Language Model Assessment 
 of RCT Trustworthiness in Systematic Reviews. [GitHub Repository]
 ```
 
@@ -148,9 +148,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📞 Contact
 
-- **Author**: Gagan Dhaliwal
-- **Email**: [Your Email]
-- **GitHub**: [Your GitHub Username]
+- **Author**: Gagandeep Singh
+- **Email**: gagans01399@gmail.com
+- **GitHub**: singhg039
 
 ## 🙏 Acknowledgments
 
