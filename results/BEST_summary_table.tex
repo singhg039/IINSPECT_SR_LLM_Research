@@ -1,0 +1,31 @@
+\begin{table}[t]
+\caption*{
+{\large Large Language Model Performance Summary: INSPECT-SR Framework} \\ 
+{\small Performance Rankings and Systematic Review Recommendations for Systematic Review Trustworthiness}
+} 
+\fontsize{13.5pt}{16.2pt}\selectfont
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}ccccccc}
+\toprule
+Assessment Type & Large Language Model & Performance Rank & Rank\textsuperscript{\textit{1}} & Cohen's κ\textsuperscript{\textit{2}} & 95\% CI & Systematic Review Recommendation\textsuperscript{\textit{3}} \\ 
+\midrule\addlinespace[2.5pt]
+\multicolumn{7}{l}{{\bfseries \cellcolor[HTML]{2E86AB}{\textcolor[HTML]{FFFFFF}{Retraction}}}} \\[2.5pt] 
+\midrule\addlinespace[2.5pt]
+Retraction & Claude Sonnet 4 & First & 1 & 0.62068966 & [0.000, 1.000] & Good - suitable with verification \\ 
+{\cellcolor[HTML]{F7F7F7}{Retraction}} & {\cellcolor[HTML]{F7F7F7}{ChatGPT 5}} & {\cellcolor[HTML]{F7F7F7}{Second}} & {\cellcolor[HTML]{F7F7F7}{2}} & {\cellcolor[HTML]{F7F7F7}{0.49230769}} & {\cellcolor[HTML]{F7F7F7}{[-0.078, 1.000]}} & {\cellcolor[HTML]{F7F7F7}{Fair - limited systematic review utility}} \\ 
+{Retraction} & {Gemini 2.5 Pro} & {Third} & {3} & {0.24137931} & {[-0.122, 1.000]} & {Poor - not suitable for systematic review use} \\ 
+\midrule\addlinespace[2.5pt]
+\multicolumn{7}{l}{{\bfseries \cellcolor[HTML]{2E86AB}{\textcolor[HTML]{FFFFFF}{Expression of Concern}}}} \\[2.5pt] 
+\midrule\addlinespace[2.5pt]
+{\cellcolor[HTML]{F7F7F7}{Expression of concern}} & {\cellcolor[HTML]{F7F7F7}{Gemini 2.5 Pro}} & {\cellcolor[HTML]{F7F7F7}{First}} & {\cellcolor[HTML]{F7F7F7}{1}} & {\cellcolor[HTML]{F7F7F7}{0.42105263}} & {\cellcolor[HTML]{F7F7F7}{[0.108, 0.744]}} & {\cellcolor[HTML]{F7F7F7}{Fair - limited systematic review utility}} \\ 
+Expression of concern & ChatGPT 5 & Second & 2 & 0.16806723 & [-0.305, 0.538] & Very poor - potentially misleading \\ 
+{\cellcolor[HTML]{F7F7F7}{Expression of concern}} & {\cellcolor[HTML]{F7F7F7}{Claude Sonnet 4}} & {\cellcolor[HTML]{F7F7F7}{Third}} & {\cellcolor[HTML]{F7F7F7}{3}} & {\cellcolor[HTML]{F7F7F7}{-0.05217391}} & {\cellcolor[HTML]{F7F7F7}{[-0.388, 0.319]}} & {\cellcolor[HTML]{F7F7F7}{Very poor - potentially misleading}} \\ 
+\bottomrule
+\end{tabular*}
+\begin{minipage}{\linewidth}
+\textsuperscript{\textit{1}}Performance Ranking: Models ranked by Cohen's κ values; ties resolved by minimum rank method for systematic review interpretation.\\
+\textsuperscript{\textit{2}}Statistical Methods: Cohen's κ with BCa bootstrap 95\% confidence intervals (R=2000); agreement level thresholds from systematic review literature.\\
+\textsuperscript{\textit{3}}Systematic Review Recommendations: Based on Landis \& Koch (1977), McHugh (2012), and systematic review methodology standards for research agreement assessment.\\
+Analysis conducted on 2025-08-31 · Performance based on Cohen's κ values with 95\% BCa bootstrap CIs · Systematic review recommendations based on systematic review methodology standards · Multiple testing correction applied for binary checks\\
+\end{minipage}
+\end{table}
+

@@ -1,0 +1,13 @@
+"model","Check","LLM Assessment","Total Assessed"
+"ChatGPT 5","Expression of Concern","Expression of Concern: 9 | No Expression of Concern: 13",22
+"Claude Sonnet 4","Expression of Concern","Expression of Concern: 5 | No Expression of Concern: 17",22
+"Gemini 2.5 Pro","Expression of Concern","Expression of Concern: 4 | No Expression of Concern: 18",22
+"ChatGPT 5","Registration Timing","Serious Issues: 3 | Some Issues: 10 | No Issues: 3",16
+"Claude Sonnet 4","Registration Timing","Serious Issues: 0 | Some Issues: 8 | No Issues: 12",20
+"Gemini 2.5 Pro","Registration Timing","Serious Issues: 7 | Some Issues: 3 | No Issues: 2",12
+"ChatGPT 5","Retraction Status","Retracted: 3 | Not Retracted: 19",22
+"Claude Sonnet 4","Retraction Status","Retracted: 2 | Not Retracted: 20",22
+"Gemini 2.5 Pro","Retraction Status","Retracted: 2 | Not Retracted: 20",22
+"ChatGPT 5","Team Integrity","Serious Concerns: 11 | Some Concerns: 3 | No Concerns: 8",22
+"Claude Sonnet 4","Team Integrity","Serious Concerns: 10 | Some Concerns: 0 | No Concerns: 12",22
+"Gemini 2.5 Pro","Team Integrity","Serious Concerns: 12 | Some Concerns: 0 | No Concerns: 10",22

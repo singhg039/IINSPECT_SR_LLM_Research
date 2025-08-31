@@ -1,0 +1,9 @@
+"data_source","assessment_type","variable","missing_pct"
+"LLM Assessment","Expression of Concern","eoc_model_num",0
+"LLM Assessment","Registration Timing","registration_model_num",27.3
+"LLM Assessment","Retraction","retraction_model_num",0
+"LLM Assessment","Team Integrity","team_model_num",0
+"Manual Gold Standard","Expression of Concern","eoc_gold_num",0
+"Manual Gold Standard","Registration Timing","registration_gold_num",0
+"Manual Gold Standard","Retraction","retraction_gold_num",0
+"Manual Gold Standard","Team Integrity","team_gold_num",0

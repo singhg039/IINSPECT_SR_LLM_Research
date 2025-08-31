@@ -17,6 +17,24 @@
 # Output files - exclude large generated files but keep folder structure
 # results/
 # figures/
+
+# Allow important analysis outputs
+!figures/*.png
+!figures/*.jpg
+!figures/*.jpeg
+!figures/*.pdf
+!figures/*.svg
+!results/*.png
+!results/*.jpg
+!results/*.jpeg
+!results/*.pdf
+!results/*.svg
+!results/*.html
+!results/*.csv
+!results/*.xlsx
+!results/*.tex
+
+# Exclude other output files
 *.png
 *.jpg
 *.jpeg

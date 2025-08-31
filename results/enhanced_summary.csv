@@ -1,0 +1,7 @@
+"Check","Model","Performance_Level","Performance_Rank","Cohen's κ","95% CI","Systematic_Review_Recommendation"
+"Expression of concern","Gemini 2.5 Pro","First",1,0.421052631578947,"[0.108, 0.744]","Fair - limited systematic review utility"
+"Expression of concern","ChatGPT 5","Second",2,0.168067226890756,"[-0.305, 0.538]","Very poor - potentially misleading"
+"Expression of concern","Claude Sonnet 4","Third",3,-0.0521739130434781,"[-0.388, 0.319]","Very poor - potentially misleading"
+"Retraction","Claude Sonnet 4","First",1,0.620689655172413,"[0.000, 1.000]","Good - suitable with verification"
+"Retraction","ChatGPT 5","Second",2,0.492307692307692,"[-0.078, 1.000]","Fair - limited systematic review utility"
+"Retraction","Gemini 2.5 Pro","Third",3,0.241379310344827,"[-0.122, 1.000]","Poor - not suitable for systematic review use"
